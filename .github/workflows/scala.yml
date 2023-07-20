@@ -29,5 +29,5 @@ jobs:
     - name: Compile
       run: ./mill app.compile
     - name: Run tests
-      run: ./mill app.tests
+      run: ./mill app.test
 
