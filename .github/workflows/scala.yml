@@ -26,7 +26,6 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-        cache: 'sbt'
     - name: Compile
       run: ./mill app.compile
     - name: Run tests
