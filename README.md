@@ -18,3 +18,12 @@ Here's how I got started (no need to perform these commands since the sources ar
     mv minimalApplication-0.9.1/* .
     rmdir minimalApplication-0.9.1
     rm minimalApplication-0.9.1.zip
+
+change the scala version in build.sc , then
+
+    ./mill -w app.runBackground
+
+This will run on :8080, go to PORTS in your GitHub codespaces to ensure it's forwarded to the outside world, and you should see the Hello world message there (and the complete website once I've written the code).
+
+
+
